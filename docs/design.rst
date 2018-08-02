@@ -96,7 +96,7 @@ Byzantine fault-tolerance in terms of the number and power of the malicious
 members it can cope with. The messaging routines required to gossip and create 
 the hashgraph are very simple compared to other BFT algorithms. The hashgraph 
 itself, however, is not ideal for representing the ordered list of transactions 
-because it is a two-demensional object which doesnt explicitily express a linear 
+because it is a two-dimensional object which doesn't explicitly express a linear 
 order of the items it contains. Hence, we developed a method to map the 
 hashgraph onto a blockchain. 
 
